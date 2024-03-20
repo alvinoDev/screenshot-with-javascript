@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Screenshot with JavaScript</title>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"
+        integrity="sha512-BNaRQnYJYiPSqHHDb58B0yaPfCu+Wgds8Gp/gU33kqBtgNS4tSPHuGibyoeqMV/TJlSKda6FXzoEyYGjTe+vXA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div id="container">
+            <h1>Weather App</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas accusantium voluptates consequuntur
+                distinctio porro optio fugiat autem praesentium, dolorum minus architecto nostrum natus dolore odit
+                illum ducimus officia, omnis est?</p>
+            <img src="assets/loiterton.jpg" id="img-bg" alt="Image Ocean">
+        </div>
+        <div id="preview-container">
+
+        </div>
+    </div>
+
+    <div class="buttons">
+        <button id="capture-button">Capture Screenshot</button>
+        <a id="download-button" class="hide">Download Screenshot</a>
+    </div>
+
+    <script src="assets/main.js"></script>
+</body>
+
+</html>
